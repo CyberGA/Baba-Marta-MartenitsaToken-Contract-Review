@@ -149,7 +149,7 @@ After transferring funds to the seller using `seller.call{value: salePrice}("")`
 ```solidity
 file: src/MartenitsaMarketplace.sol
 
-function joinEvent() external {
+function buyMartenitsa(uint256 tokenId) external payable {
   ...
 }
 ```
